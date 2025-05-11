@@ -21,7 +21,6 @@
 #include <functional>
 #include <iostream>
 #include <mutex>
-#include <new>
 #include <stdexcept>
 #include <string>
 #include <thread>
