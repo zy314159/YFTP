@@ -21,6 +21,7 @@
 #include <functional>
 #include <iostream>
 #include <mutex>
+#include <new>
 #include <stdexcept>
 #include <string>
 #include <thread>
@@ -144,6 +145,12 @@ public:
         }
     }
 
+    void saveToFile(const std::string& file_path) {
+        std::lock_guard<std::mutex> lock(data_->mtx);
+        data_->file_path = file_path;
+        saveToFile();
+    }
+
     void enableAutoSave(bool enable, int intervalMs = 5000) {
         if (enable == enable_autosave_.load())
             return;
@@ -160,6 +167,19 @@ public:
                 autosave_thread_.join();
             }
         }
+        return;
+    }
+
+    void clear(){
+        if(data_ == nullptr) return;
+        std::lock_guard<std::mutex> lock(data_->mtx);
+        enable_autosave_.store(false);
+        data_.reset();
+    }
+
+    void reset(std::string file_path){
+        if(data_) clear();
+        load(file_path);
         return;
     }
 
