@@ -6,8 +6,8 @@ CXXFLAGS = -std=c++17 -Wall -Wextra -O2
 LIBS = -lgtest -lpthread -ljsoncpp -lyaml-cpp -ltinyxml2
 
 # Source files and output
-SRC = test_ConfigManager.cpp
-TARGET = config_manager_test
+SRC = test_FileUtil.cpp
+TARGET = test_FileUtil
 
 # Default target
 all: $(TARGET)
