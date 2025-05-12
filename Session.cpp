@@ -12,11 +12,10 @@ Session::Session(tcp::socket socket, std::shared_ptr<Server> server)
     LOG_INFO_ASYNC("Session created with UUID: {}", uuid_);
 }
 
-void Session::run(){
+void Session::run() {
     auto self{shared_from_this()};
     
 }
-
 
 void Session::sendResponse(const char* response, size_t length) {
     boost::asio::async_write(
@@ -37,6 +36,5 @@ void Session::sendResponse(const std::string& response) {
     sendResponse(response.c_str(), response.size());
     return;
 }
-
 
 }  // namespace Yftp

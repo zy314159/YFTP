@@ -52,9 +52,6 @@ void initLoggerSystem() {
     }
     return;
 }
-
-
-
 };  // namespace Yftp
 
 int main() {
