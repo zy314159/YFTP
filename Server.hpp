@@ -10,6 +10,7 @@
 namespace Yftp {
 class Server {
 public:
+    friend class Session;
     using ptr = std::shared_ptr<Server>;
     Server(boost::asio::io_context& ioc, short port);
     ~Server();

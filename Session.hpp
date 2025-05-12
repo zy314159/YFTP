@@ -35,12 +35,25 @@ private:
     void sendResponse(const char* response, size_t length);
     void sendResponse(const std::string& response);
 
+    void doRead();
     void handleRead(const boost::system::error_code& error, std::size_t bytes_transferred);
+    void processCommand(const std::string& cmd_line);
+
+    void handleMkdir(const std::vector<std::string>& args);
+    void handleRmdir(const std::vector<std::string>& args);
+    void handleList(const std::vector<std::string>& args);
+    void handleDownload(const std::vector<std::string>& args);
+    void handleUpload(const std::vector<std::string>& args);
+
 
 private:
     boost::asio::ip::tcp::socket socket_;
     boost::asio::io_context ioc_;
     std::string uuid_;
     std::shared_ptr<Server> server_;
+    std::unordered_map<std::string, std::function<void(Session&, const std::vector<std::string>&)>> command_handlers_;
+    std::string download_buffer_;
+    std::string upload_buffer_;
+    boost::asio::streambuf input_buffer_;
 };
 };  // namespace Yftp
