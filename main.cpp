@@ -62,11 +62,11 @@ int main() {
     Yftp::initLoggerSystem();
 
     // Example usage of the logger
-    Yftp::g_console_logger->info("This is an info message");
-    Yftp::g_file_logger->warn("This is a warning message");
-    Yftp::g_async_logger->error("This is an error message");
-    Yftp::g_async_logger->flush();
-    Yftp::g_console_logger->flush();
-    Yftp::g_file_logger->flush();
+    //Yftp::g_console_logger->info("This is an info message:{}", __FILE__);
+    //Yftp::g_file_logger->warn("This is a warning message");
+    //Yftp::g_async_logger->error("This is an error message");
+    //Yftp::g_async_logger->flush();
+    //Yftp::g_console_logger->flush();
+    //Yftp::g_file_logger->flush();
     return 0;
 }
