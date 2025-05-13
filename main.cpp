@@ -10,6 +10,7 @@
 #include <memory>
 
 #include "ConfigManager.hpp"
+#include "Server.hpp"
 
 namespace Yftp {
 std::shared_ptr<spdlog::logger> g_console_logger;
@@ -17,10 +18,10 @@ std::shared_ptr<spdlog::logger> g_file_logger;
 std::shared_ptr<spdlog::logger> g_async_logger;
 const char* g_config_file = "/home/zhangyang/Yftp/config.json";
 
-void initConfigSystem(){
-    try{
+void initConfigSystem() {
+    try {
         ConfigManager::getInstance().load(g_config_file);
-    }catch(std::exception& e){
+    } catch (std::exception& e) {
         std::cerr << "ConfigManager initialization failed: " << e.what() << std::endl;
     }
     return;
@@ -33,14 +34,18 @@ void initLoggerSystem() {
         g_console_logger->set_pattern("[%Y-%m-%d %H:%M:%S] [%^%l%$] %v");
 
         // Initialize file logger
-        std::string log_file = ConfigManager::getInstance().get<std::string>("log_file", "logs/yftp.log");
+        std::string log_file =
+            ConfigManager::getInstance().get<std::string>("log_file", "logs/yftp.log");
         g_file_logger = spdlog::basic_logger_mt("file_logger", log_file);
         g_file_logger->set_pattern("[%Y-%m-%d %H:%M:%S] [%^%l%$] %v");
 
         // Initialize asynchronous logger
-        std::size_t max_queue_size = ConfigManager::getInstance().get<int>("max_asynclog_que_size", 8192);
-        std::size_t thread_count = ConfigManager::getInstance().get<int>("max_asynclog_worker_thread", 1);
-        std::string async_log_file = ConfigManager::getInstance().get<std::string>("async_log_file", "logs/async_yftp.log");
+        std::size_t max_queue_size =
+            ConfigManager::getInstance().get<int>("max_asynclog_que_size", 8192);
+        std::size_t thread_count =
+            ConfigManager::getInstance().get<int>("max_asynclog_worker_thread", 1);
+        std::string async_log_file =
+            ConfigManager::getInstance().get<std::string>("async_log_file", "logs/async_yftp.log");
         spdlog::init_thread_pool(max_queue_size, thread_count);
         g_async_logger = spdlog::create_async<spdlog::sinks::basic_file_sink_mt>(
             "async_logger", async_log_file, true);
@@ -55,15 +60,23 @@ void initLoggerSystem() {
 };  // namespace Yftp
 
 int main() {
-    Yftp::initConfigSystem();
-    Yftp::initLoggerSystem();
+    try {
+        Yftp::initConfigSystem();
+        Yftp::initLoggerSystem();
 
-    // Example usage of the logger
-    //Yftp::g_console_logger->info("This is an info message:{}", __FILE__);
-    //Yftp::g_file_logger->warn("This is a warning message");
-    //Yftp::g_async_logger->error("This is an error message");
-    //Yftp::g_async_logger->flush();
-    //Yftp::g_console_logger->flush();
-    //Yftp::g_file_logger->flush();
+        // Example usage of the logger
+        // Yftp::g_console_logger->info("This is an info message:{}", __FILE__);
+        // Yftp::g_file_logger->warn("This is a warning message");
+        // Yftp::g_async_logger->error("This is an error message");
+        // Yftp::g_async_logger->flush();
+        // Yftp::g_console_logger->flush();
+        // Yftp::g_file_logger->flush();
+        boost::asio::io_context ioc;
+        short port = Yftp::ConfigManager::getInstance().get<int>("port", 8080);
+        Yftp::Server server(ioc, port);
+        ioc.run();
+    } catch (std::exception& e) {
+        std::cerr << "Main function exception: " << e.what() << std::endl;
+    }
     return 0;
 }

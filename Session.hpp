@@ -1,59 +1,56 @@
 #pragma once
-
-#include <spdlog/logger.h>
-
 #include <boost/asio.hpp>
-#include <boost/asio/io_context.hpp>
-#include <boost/uuid/uuid.hpp>
 #include <boost/uuid/uuid_generators.hpp>
 #include <boost/uuid/uuid_io.hpp>
 #include <memory>
+#include <mutex>
+#include <queue>
 
-namespace Yftp {
+#include "MsgNode.hpp"
+#include "const.hpp"
+
 using tcp = boost::asio::ip::tcp;
-extern std::shared_ptr<spdlog::logger> g_console_logger;
-extern std::shared_ptr<spdlog::logger> g_async_logger;
-
+namespace Yftp {
 class Server;
+class LogicSystem;
 class Session : public std::enable_shared_from_this<Session> {
 public:
     using ptr = std::shared_ptr<Session>;
-
-    Session(tcp::socket socket, std::shared_ptr<Server> server);
-
-    std::string getUUID() const {
-        return this->uuid_;
-    }
-
-    tcp::socket& getSocket() {
-        return this->socket_;
-    }
-
-    void run();
+    Session(boost::asio::io_context& io_context, Server* server);
+    ~Session();
+    tcp::socket& getSocket();
+    std::string& getUUID();
+    void start();
+    void send(char* msg, short max_length, short msgid);
+    void send(std::string msg, short msgid);
+    void close();
+    std::shared_ptr<Session> sharedSelf();
 
 private:
-    void sendResponse(const char* response, size_t length);
-    void sendResponse(const std::string& response);
-
-    void doRead();
-    void handleRead(const boost::system::error_code& error, std::size_t bytes_transferred);
-    void processCommand(const std::string& cmd_line);
-
-    void handleMkdir(const std::vector<std::string>& args);
-    void handleRmdir(const std::vector<std::string>& args);
-    void handleList(const std::vector<std::string>& args);
-    void handleDownload(const std::vector<std::string>& args);
-    void handleUpload(const std::vector<std::string>& args);
-
-
-private:
-    boost::asio::ip::tcp::socket socket_;
-    boost::asio::io_context ioc_;
+    void handleRead(const boost::system::error_code& error, size_t bytes_transferred,
+                    std::shared_ptr<Session> shared_self);
+    void handleWrite(const boost::system::error_code& error, std::shared_ptr<Session> shared_self);
+    tcp::socket socket_;
     std::string uuid_;
-    std::shared_ptr<Server> server_;
-    std::unordered_map<std::string, std::function<void(Session&, const std::vector<std::string>&)>> command_handlers_;
-    std::string download_buffer_;
-    std::string upload_buffer_;
-    boost::asio::streambuf input_buffer_;
+    char data_[MAX_LENGTH];
+    Server* server_;
+    bool b_close_;
+    std::queue<shared_ptr<SendNode> > send_que_;
+    std::mutex send_lock_;
+    std::shared_ptr<RecvNode> recv_msg_node_;
+    bool b_head_parse_;
+    std::shared_ptr<MsgNode> recv_head_node_;
 };
-};  // namespace Yftp
+
+class LogicNode {
+    friend class LogicSystem;
+
+public:
+    LogicNode(shared_ptr<Session>, shared_ptr<RecvNode>);
+
+private:
+    shared_ptr<Session> session_;
+    shared_ptr<RecvNode> recvnode_;
+};
+
+}  // namespace Yftp

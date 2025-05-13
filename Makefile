@@ -6,7 +6,7 @@ CXXFLAGS = -std=c++17 -Wall -Wextra -O2
 LIBS = -lpthread -ljsoncpp -lyaml-cpp -ltinyxml2 -lspdlog -lboost_system -lfmt
 
 # Source files and output
-SRC = main.cpp
+SRC = main.cpp Server.cpp Session.cpp
 TARGET = main
 
 # Default target
