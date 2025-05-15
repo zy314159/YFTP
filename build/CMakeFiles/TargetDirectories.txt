@@ -1,3 +1,0 @@
-/home/zhangyang/Yftp/build/CMakeFiles/Yftp.dir
-/home/zhangyang/Yftp/build/CMakeFiles/edit_cache.dir
-/home/zhangyang/Yftp/build/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-[2025-05-13 14:20:17] [info] /home/zhangyang/Yftp/src/Server.cpp:15 Server started on port: 8080
-[2025-05-13 14:20:27] [info] /home/zhangyang/Yftp/src/Server.cpp:27 Server stopped on port: 8080
-[2025-05-13 14:20:27] [info] /home/zhangyang/Yftp/src/AsioIOServicePool.cpp:20 AsioIOServicePool destructor
