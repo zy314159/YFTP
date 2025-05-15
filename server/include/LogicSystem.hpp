@@ -30,6 +30,7 @@ private:
     void handleRmdirCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
     void handleUploadCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
     void handleDownloadCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
+    void handlePrintWorkDirCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
 
 
     std::thread worker_thread_;

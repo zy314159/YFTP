@@ -40,11 +40,12 @@ using boost::asio::ip::tcp;
 // 定义与服务器相同的消息ID
 enum MSG_IDS {
     MSG_HELLO_WORD = 1001,
-    MSG_MKDIR,    // 创建目录指令
-    MSG_RMDIR,    // 删除目录
-    MSG_LIST,     // 列出目录内容
-    MSG_UPLOAD,   // 上传文件
-    MSG_DOWNLOAD  // 下载文件
+    MSG_MKDIR,     // 创建目录指令
+    MSG_RMDIR,     // 删除目录
+    MSG_LIST,      // 列出目录内容
+    MSG_UPLOAD,    // 上传文件
+    MSG_DOWNLOAD,  // 下载文件
+    MSG_PWD,       // 显示当前目录
 };
 
 // 消息节点类
@@ -97,7 +98,10 @@ class ClientSession : public std::enable_shared_from_this<ClientSession> {
     using ptr = std::shared_ptr<ClientSession>;
 
     ClientSession(boost::asio::io_context& io_context)
-        : socket_(io_context), b_close_(false), b_head_parse_(false), connected_(false){
+        : socket_(io_context),
+          b_close_(false),
+          b_head_parse_(false),
+          connected_(false) {
         boost::uuids::uuid a_uuid = boost::uuids::random_generator()();
         uuid_ = boost::uuids::to_string(a_uuid);
         recv_head_node_ = std::make_shared<MsgNode>(HEAD_TOTAL_LEN);
@@ -183,7 +187,7 @@ class ClientSession : public std::enable_shared_from_this<ClientSession> {
             b_close_ = true;
         }
 
-        if(connected_) {
+        if (connected_) {
             connected_ = false;
             std::cout << "Disconnected from server." << std::endl;
         }
@@ -407,6 +411,11 @@ class ClientSession : public std::enable_shared_from_this<ClientSession> {
                 }
                 break;
             }
+            case MSG_PWD: {
+                std::cout << "Current directory: " << root["data"].asString()
+                          << std::endl;
+                break;
+            }
             default: {
                 std::cerr << "Unknown message ID: " << msg_id << std::endl;
                 break;
@@ -571,6 +580,14 @@ class YFTPClient {
         session_->send(msg, MSG_DOWNLOAD);
     }
 
+    void printWorkingDirectory(const std::string& path) {
+        Json::Value root;
+        root["msg_id"] = MSG_PWD;
+        root["path"] = path;
+        std::string msg = root.toStyledString();
+        session_->send(msg, MSG_PWD);
+    }
+
    private:
     std::string host_;
     short port_;
@@ -600,7 +617,7 @@ class CommandLineInterface {
                   << client_.getPort() << std::endl;
         std::cout << "Type 'help' for available commands" << std::endl;
 
-        while(!client_.session_->isConnected()){
+        while (!client_.session_->isConnected()) {
             std::this_thread::sleep_for(std::chrono::milliseconds(100));
         }
         showPrompt();
@@ -635,10 +652,15 @@ class CommandLineInterface {
                 client_.sendHello();
             } else if (command == "list" || command == "ls") {
                 if (tokens.size() < 2) {
-                    std::cerr << "Usage: list <remote_path>" << std::endl;
-                    if (!waiting_response_) {
-                        showPrompt();
+                    if (tokens.size() == 1) {
+                        client_.listDirectory(".");
+                    } else {
+                        std::cerr << "Usage: list <remote_path>" << std::endl;
+                        if (!waiting_response_) {
+                            showPrompt();
+                        }
                     }
+                
                 } else {
                     waiting_response_ = true;
                     client_.listDirectory(tokens[1]);
@@ -685,7 +707,13 @@ class CommandLineInterface {
                     waiting_response_ = true;
                     client_.downloadFile(tokens[1], tokens[2]);
                 }
-            } else {
+            }else if(command == "pwd"){
+                if(tokens.size() < 2){
+                    tokens.push_back(".");
+                }
+                waiting_response_ = true;
+                client_.printWorkingDirectory(tokens[1]);
+            }else {
                 std::cerr << "Unknown command: " << command << std::endl;
                 std::cout << "Type 'help' for available commands" << std::endl;
                 if (!waiting_response_) {

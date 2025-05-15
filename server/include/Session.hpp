@@ -20,6 +20,7 @@ public:
     ~Session();
     tcp::socket& getSocket();
     std::string& getUUID();
+    std::string& getCurrentPath();
     std::string getRemoteIp();
     void start();
     void send(char* msg, short max_length, short msgid);
@@ -41,6 +42,8 @@ private:
     std::shared_ptr<RecvNode> recv_msg_node_;
     bool b_head_parse_;
     std::shared_ptr<MsgNode> recv_head_node_;
+
+    std::string current_path_;
 };
 
 class LogicNode {

@@ -6,6 +6,7 @@
 #include <sstream>
 
 #include "../include/LogicSystem.hpp"
+#include "../include/ConfigManager.hpp"
 #include "../include/Server.hpp"
 #include "../include/logger.hpp"
 
@@ -19,12 +20,28 @@ Session::Session(boost::asio::io_context& io_context, Server* server)
     boost::uuids::uuid a_uuid = boost::uuids::random_generator()();
     uuid_ = boost::uuids::to_string(a_uuid);
     recv_head_node_ = make_shared<MsgNode>(HEAD_TOTAL_LEN);
+
+    std::string init_path = ConfigManager::getInstance().get<std::string>(
+        "init_path", "");
+    
+    if(init_path.empty()){
+        init_path = std::string(std::getenv("HOME")) + "/yftp_files";
+    }
+
+    if(!FileUtil::directoryExists(init_path)){
+        FileUtil::createDirectory(init_path);
+    }
+
+    current_path_ = std::move(init_path);
 }
+
 Session::~Session() { LOG_INFO("~Session destruct"); }
 
 tcp::socket& Session::getSocket() { return socket_; }
 
 std::string& Session::getUUID() { return uuid_; }
+
+std::string& Session::getCurrentPath() { return current_path_; }
 
 void Session::start() {
     ::memset(data_, 0, MAX_LENGTH);

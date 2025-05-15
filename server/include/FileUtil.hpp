@@ -103,5 +103,10 @@ namespace Yftp{
                     return path;
                 }
             }
+
+            static std::string getParentPath(const std::string& path){
+                std::string standardized_path = standardizePath(path);
+                return std::filesystem::path(standardized_path).parent_path().string();
+            }
     };
 }
