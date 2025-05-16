@@ -16,4 +16,6 @@ enum MSG_IDS {
     MSG_DOWNLOAD,  // 下载文件
     MSG_CD,       // 切换目录
     MSG_PWD,      // 显示当前目录
+    MSG_CAT,      // 显示文件内容
+    MSG_EXIT,     // 退出指令
 };

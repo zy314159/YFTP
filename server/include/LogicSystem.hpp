@@ -32,6 +32,8 @@ private:
     void handleDownloadCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
     void handleCDCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
     void handlePWDCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
+    void handleCATCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
+    void handleUserExitCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
 
 
     std::thread worker_thread_;

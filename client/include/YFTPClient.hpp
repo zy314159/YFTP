@@ -122,6 +122,21 @@ class YFTPClient {
         session_->send(msg, MSG_CD);
     }
 
+    void catFile(const std::string& path) {
+        Json::Value root;
+        root["msg_id"] = MSG_CAT;
+        root["path"] = path;
+        std::string msg = root.toStyledString();
+        session_->send(msg, MSG_CAT);
+    }
+
+    void exit() {
+        Json::Value root;
+        root["msg_id"] = MSG_EXIT;
+        std::string msg = root.toStyledString();
+        session_->send(msg, MSG_EXIT);
+    }
+
    private:
     std::string host_;
     short port_;

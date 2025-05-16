@@ -83,6 +83,7 @@ void Session::send(char* msg, short max_length, short msgid) {
 void Session::close() {
     socket_.close();
     b_close_ = true;
+    return;
 }
 
 std::shared_ptr<Session> Session::sharedSelf() { return shared_from_this(); }

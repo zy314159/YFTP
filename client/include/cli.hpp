@@ -127,16 +127,26 @@ class CommandLineInterface {
             } else if (command == "pwd") {
                 waiting_response_ = true;
                 client_.printCurrentPath();
-            } else if (command == "clear") {
+            } else if(command == "cat") {
+                if (tokens.size() < 2) {
+                    std::cerr << "Usage: cat <remote_path>" << std::endl;
+                    if (!waiting_response_) {
+                        showPrompt();
+                    }
+                } else {
+                    waiting_response_ = true;
+                    client_.catFile(tokens[1]);
+                }
+            }else if (command == "clear") {
                 std::cout << "\033[2J\033[1;1H";  // Clear the console
                 showPrompt();
-            } else if (command == "clear") {
+            }else if (command == "cls") {
                 std::cout << "\033[2J\033[1;1H";  // Clear the console
                 showPrompt();
-            } else if (command == "cls") {
-                std::cout << "\033[2J\033[1;1H";  // Clear the console
-                showPrompt();
-            } else {
+            } else if(command == "exit"){
+                
+            }
+                else {
                 std::cerr << "Unknown command: " << command << std::endl;
                 std::cout << "Type 'help' for available commands" << std::endl;
                 if (!waiting_response_) {

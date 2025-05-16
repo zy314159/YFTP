@@ -1,10 +1,9 @@
-#include "../include/LogicSystem.hpp"
 
 #include <exception>
 #include <string>
 
 #include "../include/logger.hpp"
-
+#include "../include/LogicSystem.hpp"
 namespace Yftp {
 LogicSystem::LogicSystem() : b_stop_(false) {
     registerCallBacks();
@@ -97,6 +96,14 @@ void LogicSystem::registerCallBacks() {
                               std::placeholders::_3));
     registerHandler(MSG_PWD,
                     std::bind(&LogicSystem::handlePWDCallBack, this,
+                              std::placeholders::_1, std::placeholders::_2,
+                              std::placeholders::_3));
+    registerHandler(MSG_CAT,
+                    std::bind(&LogicSystem::handleCATCallBack, this,
+                              std::placeholders::_1, std::placeholders::_2,
+                              std::placeholders::_3));
+    registerHandler(MSG_EXIT,
+                    std::bind(&LogicSystem::handleUserExitCallBack, this,
                               std::placeholders::_1, std::placeholders::_2,
                               std::placeholders::_3));
     LOG_INFO("register all msg id success");
@@ -405,4 +412,63 @@ void LogicSystem::handlePWDCallBack(Session::ptr session, const short &msg_id,
 
     return;
 }
+
+void LogicSystem::handleCATCallBack(Session::ptr session,
+                                     const short &msg_id,
+                                     const string &msg_data) {
+    try {
+        Json::Reader reader;
+        Json::Value root;
+        reader.parse(msg_data, root);
+        assert(root["msg_id"].asInt() == MSG_CAT);
+        std::string path = root["path"].asString();
+        path = session->resolvePath(path);
+        std::string content = FileUtil::readFile(path);
+        Json::Value return_root;
+        return_root["msg_id"] = MSG_CAT;
+        return_root["content"] = content;
+        std::string return_str = return_root.toStyledString();
+        LOG_INFO("Send {} bytes to {}", return_str.size(),
+                 session->getRemoteIp());
+        session->send(return_str, MSG_CAT);
+    } catch (std::exception &e) {
+        Json::Value error_root;
+        error_root["msg_id"] = MSG_CAT;
+        error_root["data"] = std::string("Exception occurred: ") + e.what();
+        std::string error_str = error_root.toStyledString();
+        LOG_INFO("Send {} bytes to {}", error_str.size(),
+                 session->getRemoteIp());
+        session->send(error_str, MSG_CAT);
+    } catch (...) {
+        Json::Value error_root;
+        error_root["msg_id"] = MSG_CAT;
+        error_root["data"] = "Unknown exception occurred";
+        std::string error_str = error_root.toStyledString();
+        LOG_INFO("Send {} bytes to {}", error_str.size(),
+                 session->getRemoteIp());
+        session->send(error_str, MSG_CAT);
+    }
+    return;
+}
+
+void LogicSystem::handleUserExitCallBack(Session::ptr session,
+                                          const short &msg_id,
+                                          const string &msg_data) {
+    try {
+        Json::Reader reader;
+        Json::Value root;
+        reader.parse(msg_data, root);
+        assert(root["msg_id"].asInt() == MSG_EXIT);
+        Json::Value return_root;
+        return_root["msg_id"] = MSG_EXIT;
+        return_root["data"] = "Thank you for using YFTP, goodbye!";
+        session->close();
+    } catch (std::exception &e) {
+        LOG_ERROR("Exception code : {}", e.what());
+    } catch (...) {
+        LOG_ERROR("Unknown exception occurred");
+    }
+    return;
+}
+
 }  // namespace Yftp

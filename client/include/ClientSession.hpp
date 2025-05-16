@@ -106,7 +106,7 @@ class ClientSession : public std::enable_shared_from_this<ClientSession> {
 
         if(connected_) {
             connected_ = false;
-            std::cout << "Disconnected from server." << std::endl;
+            std::cout << "Disconnected from server. Thank you for using YFTP." << std::endl;
         }
     }
 
@@ -335,6 +335,15 @@ class ClientSession : public std::enable_shared_from_this<ClientSession> {
             case MSG_PWD: {
                 std::cout << "The current directory is " << root["data"].asString()
                           << std::endl;
+                break;
+            }case MSG_CAT: {
+                std::cout << "File content:\n" << root["content"].asString()
+                          << std::endl;
+                break;
+            }case MSG_EXIT: {
+                std::cout << "Server response: " << root["data"].asString()
+                          << std::endl;
+                close();
                 break;
             }
             default: {
