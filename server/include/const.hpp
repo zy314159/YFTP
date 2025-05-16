@@ -16,5 +16,7 @@ enum MSG_IDS {
     MSG_RMDIR, // 删除目录
     MSG_LIST,  // 列出目录内容
     MSG_UPLOAD, // 上传文件
-    MSG_DOWNLOAD
+    MSG_DOWNLOAD, // 下载文件
+    MSG_CD, // 切换目录
+    MSG_PWD, // 显示当前目录
 };

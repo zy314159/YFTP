@@ -30,6 +30,8 @@ private:
     void handleRmdirCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
     void handleUploadCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
     void handleDownloadCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
+    void handleCDCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
+    void handlePWDCallBack(shared_ptr<Session>, const short &msg_id, const string &msg_data);
 
 
     std::thread worker_thread_;

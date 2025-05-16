@@ -1,26 +1,41 @@
-[2025-05-16 01:14:58] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:9 AsioIOServicePool construct
-[2025-05-16 01:14:58] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:10 AsioIOServicePool size is 32
-[2025-05-16 01:14:58] [info] /home/zhangyang/YFTP/server/src/Server.cpp:15 Server started on port: 8080
-[2025-05-16 01:15:03] [info] /home/zhangyang/YFTP/server/src/Server.cpp:36 Accepted new session from: 127.0.0.1
-[2025-05-16 01:15:14] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:104 msg id 1001 register success
-[2025-05-16 01:15:14] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:104 msg id 1004 register success
-[2025-05-16 01:15:14] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:104 msg id 1002 register success
-[2025-05-16 01:15:14] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:104 msg id 1003 register success
-[2025-05-16 01:15:14] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:104 msg id 1005 register success
-[2025-05-16 01:15:14] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:104 msg id 1006 register success
-[2025-05-16 01:15:14] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1004
-[2025-05-16 01:15:14] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:136 Send 966 bytes to 127.0.0.1
-[2025-05-16 01:15:29] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1002
-[2025-05-16 01:15:29] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:173 Send 65 bytes to 127.0.0.1
-[2025-05-16 01:15:42] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1004
-[2025-05-16 01:15:42] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:136 Send 1040 bytes to 127.0.0.1
-[2025-05-16 01:21:25] [error] /home/zhangyang/YFTP/server/src/Session.cpp:235 handle read failed, error is End of file
-[2025-05-16 01:21:25] [info] /home/zhangyang/YFTP/server/src/Server.cpp:53 Session 193e6682-2d68-4af7-8353-68c42a0ff4aa cleared
-[2025-05-16 01:21:25] [info] /home/zhangyang/YFTP/server/src/Session.cpp:23 ~Session destruct
-[2025-05-16 01:21:38] [info] /home/zhangyang/YFTP/server/src/Server.cpp:36 Accepted new session from: 127.0.0.1
-[2025-05-16 01:21:46] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1004
-[2025-05-16 01:21:46] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:136 Send 1040 bytes to 127.0.0.1
-[2025-05-16 01:23:09] [info] /home/zhangyang/YFTP/server/src/Server.cpp:24 Server stopped on port: 8080
-[2025-05-16 01:23:09] [info] /home/zhangyang/YFTP/server/src/Session.cpp:23 ~Session destruct
-[2025-05-16 01:23:09] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:22 AsioIOServicePool destruct
-[2025-05-16 01:23:09] [info] /home/zhangyang/YFTP/server/src/Session.cpp:23 ~Session destruct
+[2025-05-16 17:13:56] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:9 AsioIOServicePool construct
+[2025-05-16 17:13:56] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:10 AsioIOServicePool size is 32
+[2025-05-16 17:13:56] [info] /home/zhangyang/YFTP/server/src/Server.cpp:15 Server started on port: 8080
+[2025-05-16 17:13:58] [info] /home/zhangyang/YFTP/server/src/Server.cpp:36 Accepted new session from: 127.0.0.1
+[2025-05-16 17:14:04] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:113 msg id 1001 register success
+[2025-05-16 17:14:04] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:113 msg id 1004 register success
+[2025-05-16 17:14:04] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:113 msg id 1002 register success
+[2025-05-16 17:14:04] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:113 msg id 1003 register success
+[2025-05-16 17:14:04] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:113 msg id 1005 register success
+[2025-05-16 17:14:04] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:113 msg id 1006 register success
+[2025-05-16 17:14:04] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:113 msg id 1007 register success
+[2025-05-16 17:14:04] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:113 msg id 1008 register success
+[2025-05-16 17:14:04] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:102 register all msg id success
+[2025-05-16 17:14:04] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1004
+[2025-05-16 17:14:04] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:146 Send 1410 bytes to 127.0.0.1
+[2025-05-16 17:14:08] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1007
+[2025-05-16 17:14:08] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:350 Send 76 bytes to 127.0.0.1
+[2025-05-16 17:16:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:243 handle read failed, error is End of file
+[2025-05-16 17:16:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:53 Session ae6c6595-3efb-467d-802e-757be1be04d1 cleared
+[2025-05-16 17:16:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-16 17:16:49] [info] /home/zhangyang/YFTP/server/src/Server.cpp:36 Accepted new session from: 127.0.0.1
+[2025-05-16 17:16:55] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1007
+[2025-05-16 17:16:55] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:350 Send 76 bytes to 127.0.0.1
+[2025-05-16 17:16:58] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1004
+[2025-05-16 17:16:58] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:146 Send 401 bytes to 127.0.0.1
+[2025-05-16 17:17:08] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1007
+[2025-05-16 17:17:08] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:350 Send 83 bytes to 127.0.0.1
+[2025-05-16 17:17:10] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1004
+[2025-05-16 17:17:10] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:146 Send 794 bytes to 127.0.0.1
+[2025-05-16 17:17:21] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1007
+[2025-05-16 17:17:21] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:350 Send 76 bytes to 127.0.0.1
+[2025-05-16 17:17:24] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1007
+[2025-05-16 17:17:24] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:350 Send 71 bytes to 127.0.0.1
+[2025-05-16 17:17:25] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:56 recv_msg id is 1004
+[2025-05-16 17:17:25] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:146 Send 1410 bytes to 127.0.0.1
+[2025-05-16 17:17:40] [error] /home/zhangyang/YFTP/server/src/Session.cpp:243 handle read failed, error is End of file
+[2025-05-16 17:17:40] [info] /home/zhangyang/YFTP/server/src/Server.cpp:53 Session 13c8ea0c-9530-4aec-832a-d77df829c191 cleared
+[2025-05-16 17:17:40] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-16 17:17:40] [info] /home/zhangyang/YFTP/server/src/Server.cpp:24 Server stopped on port: 8080
+[2025-05-16 17:17:40] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-16 17:17:40] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:22 AsioIOServicePool destruct

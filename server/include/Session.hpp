@@ -5,6 +5,7 @@
 #include <memory>
 #include <mutex>
 #include <queue>
+#include <filesystem>
 
 #include "MsgNode.hpp"
 #include "const.hpp"
@@ -21,6 +22,12 @@ public:
     tcp::socket& getSocket();
     std::string& getUUID();
     std::string getRemoteIp();
+    const std::string getCurrentPath() const { return user_current_path_.string(); }
+    void setCurrentPath(const std::string& path) {
+        this->user_current_path_ = std::filesystem::path(path);
+    }
+    std::string resolvePath(const std::string& path);
+    
     void start();
     void send(char* msg, short max_length, short msgid);
     void send(std::string msg, short msgid);
@@ -41,6 +48,8 @@ private:
     std::shared_ptr<RecvNode> recv_msg_node_;
     bool b_head_parse_;
     std::shared_ptr<MsgNode> recv_head_node_;
+
+    std::filesystem::path user_current_path_;//用户的工作目录
 };
 
 class LogicNode {

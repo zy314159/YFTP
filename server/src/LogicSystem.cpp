@@ -91,6 +91,15 @@ void LogicSystem::registerCallBacks() {
                     std::bind(&LogicSystem::handleDownloadCallBack, this,
                               std::placeholders::_1, std::placeholders::_2,
                               std::placeholders::_3));
+    registerHandler(MSG_CD,
+                    std::bind(&LogicSystem::handleCDCallBack, this,
+                              std::placeholders::_1, std::placeholders::_2,
+                              std::placeholders::_3));
+    registerHandler(MSG_PWD,
+                    std::bind(&LogicSystem::handlePWDCallBack, this,
+                              std::placeholders::_1, std::placeholders::_2,
+                              std::placeholders::_3));
+    LOG_INFO("register all msg id success");
     return;
 }
 
@@ -128,6 +137,7 @@ void LogicSystem::handleListCallBack(Session::ptr session, const short &msg_id,
         reader.parse(msg_data, root);
         assert(root["msg_id"].asInt() == MSG_LIST);
         std::string path = root["path"].asString();
+        path = session->resolvePath(path);
         std::string list_result = FileUtil::getList(path);
         Json::Value return_root;
         return_root["msg_id"] = MSG_LIST;
@@ -164,6 +174,7 @@ void LogicSystem::handleMkdirCallBack(Session::ptr session, const short &msg_id,
         reader.parse(msg_data, root);
         assert(root["msg_id"].asInt() == MSG_MKDIR);
         std::string path = root["path"].asString();
+        path = session->resolvePath(path);
         bool result = FileUtil::createDirectory(path);
         Json::Value return_root;
         return_root["msg_id"] = MSG_MKDIR;
@@ -201,6 +212,7 @@ void LogicSystem::handleRmdirCallBack(Session::ptr session, const short &msg_id,
         reader.parse(msg_data, root);
         assert(root["msg_id"].asInt() == MSG_RMDIR);
         std::string path = root["path"].asString();
+        path = session->resolvePath(path);
         bool result = FileUtil::removeDirectory(path);
         Json::Value return_root;
         return_root["msg_id"] = MSG_RMDIR;
@@ -239,6 +251,20 @@ void LogicSystem::handleUploadCallBack(Session::ptr session,
         reader.parse(msg_data, root);
         assert(root["msg_id"].asInt() == MSG_UPLOAD);
         std::string path = root["path"].asString();
+        path = session->resolvePath(path);
+        if (!fs::exists(path)) {
+            if (fs::is_directory(path)) {
+                LOG_ERROR("Path {} is a directory.", path);
+                throw std::runtime_error("Path is a directory");
+            }
+
+            std::ofstream file(path);  // Create the file if it doesn't exist
+            if (!file) {
+                LOG_ERROR("Failed to create file at path: {}", path);
+                throw std::runtime_error("Failed to create file");
+            }
+            file.close();
+        }
         std::string content = root["content"].asString();
         bool result = FileUtil::writeFile(path, content);
         Json::Value return_root;
@@ -278,6 +304,7 @@ void LogicSystem::handleDownloadCallBack(Session::ptr session,
         reader.parse(msg_data, root);
         assert(root["msg_id"].asInt() == MSG_DOWNLOAD);
         std::string path = root["path"].asString();
+        path = session->resolvePath(path);
         std::string content = FileUtil::readFile(path);
         Json::Value return_root;
         return_root["msg_id"] = MSG_DOWNLOAD;
@@ -303,6 +330,79 @@ void LogicSystem::handleDownloadCallBack(Session::ptr session,
                  session->getRemoteIp());
         session->send(error_str, MSG_DOWNLOAD);
     }
+    return;
+}
+
+void LogicSystem::handleCDCallBack(Session::ptr session, const short &msg_id,
+                                   const string &msg_data) {
+    try {
+        Json::Reader reader;
+        Json::Value root;
+        reader.parse(msg_data, root);
+        assert(root["msg_id"].asInt() == MSG_CD);
+        std::string path = root["path"].asString();
+        path = session->resolvePath(path);
+        session->setCurrentPath(path);
+        Json::Value return_root;
+        return_root["msg_id"] = MSG_CD;
+        return_root["data"] = "Changed directory to " + path;
+        std::string return_str = return_root.toStyledString();
+        LOG_INFO("Send {} bytes to {}", return_str.size(),
+                 session->getRemoteIp());
+        session->send(return_str, MSG_CD);
+    } catch (std::exception &e) {
+        Json::Value error_root;
+        error_root["msg_id"] = MSG_CD;
+        error_root["data"] = std::string("Exception occurred: ") + e.what();
+        std::string error_str = error_root.toStyledString();
+        LOG_INFO("Send {} bytes to {}", error_str.size(),
+                 session->getRemoteIp());
+        session->send(error_str, MSG_CD);
+    } catch (...) {
+        Json::Value error_root;
+        error_root["msg_id"] = MSG_CD;
+        error_root["data"] = "Unknown exception occurred";
+        std::string error_str = error_root.toStyledString();
+        LOG_INFO("Send {} bytes to {}", error_str.size(),
+                 session->getRemoteIp());
+        session->send(error_str, MSG_CD);
+    }
+    return;
+}
+
+void LogicSystem::handlePWDCallBack(Session::ptr session, const short &msg_id,
+                                    const string &msg_data) {
+    try {
+        Json::Reader reader;
+        Json::Value root;
+        reader.parse(msg_data, root);
+        assert(root["msg_id"].asInt() == MSG_PWD);
+        std::string path = session->getCurrentPath();
+        Json::Value return_root;
+        return_root["msg_id"] = MSG_PWD;
+        return_root["data"] = path;
+        std::string return_str = return_root.toStyledString();
+        LOG_INFO("Send {} bytes to {}", return_str.size(),
+                 session->getRemoteIp());
+        session->send(return_str, MSG_PWD);
+    } catch (std::exception &e) {
+        Json::Value error_root;
+        error_root["msg_id"] = MSG_PWD;
+        error_root["data"] = std::string("Exception occurred: ") + e.what();
+        std::string error_str = error_root.toStyledString();
+        LOG_INFO("Send {} bytes to {}", error_str.size(),
+                 session->getRemoteIp());
+        session->send(error_str, MSG_PWD);
+    } catch (...) {
+        Json::Value error_root;
+        error_root["msg_id"] = MSG_PWD;
+        error_root["data"] = "Unknown exception occurred";
+        std::string error_str = error_root.toStyledString();
+        LOG_INFO("Send {} bytes to {}", error_str.size(),
+                 session->getRemoteIp());
+        session->send(error_str, MSG_PWD);
+    }
+
     return;
 }
 }  // namespace Yftp

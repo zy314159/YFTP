@@ -19,6 +19,14 @@ Session::Session(boost::asio::io_context& io_context, Server* server)
     boost::uuids::uuid a_uuid = boost::uuids::random_generator()();
     uuid_ = boost::uuids::to_string(a_uuid);
     recv_head_node_ = make_shared<MsgNode>(HEAD_TOTAL_LEN);
+
+    const char* home_path = std::getenv("HOME");
+    if(home_path){
+        user_current_path_ = std::filesystem::path(home_path);
+    } else {
+        LOG_ERROR("HOME environment variable not set");
+        user_current_path_ = std::filesystem::current_path();
+    }
 }
 Session::~Session() { LOG_INFO("~Session destruct"); }
 
@@ -245,9 +253,36 @@ std::string Session::getRemoteIp() {
     return socket_.remote_endpoint().address().to_string();
 }
 
+std::string Session::resolvePath(const std::string& path) {
+    fs::path fs_path = path;
+    if (fs_path.is_absolute()) {
+        return fs::weakly_canonical(fs_path).string();
+    }
+
+    fs::path user_path = user_current_path_ / fs_path;
+
+    std::vector<std::string> path_parts;
+    for (const auto& part : user_path) {
+        if (part == ".") {
+            continue;
+        } else if (part == "..") {
+            if (!path_parts.empty()) {
+                path_parts.pop_back();
+            }
+        } else {
+            path_parts.push_back(part);
+        }
+    }
+
+    fs::path result;
+    for (const auto& part : path_parts) {
+        result /= part;
+    }
+
+    return fs::weakly_canonical(result).string();
+}
+
 LogicNode::LogicNode(shared_ptr<Session> session, shared_ptr<RecvNode> recvnode)
     : session_(session), recvnode_(recvnode) {}
-
-
 
 }  // namespace Yftp
