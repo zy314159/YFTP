@@ -19,5 +19,6 @@ target_link_libraries(Yftp
     jsoncpp
     yaml-cpp
     tinyxml2
+    z
 )
 

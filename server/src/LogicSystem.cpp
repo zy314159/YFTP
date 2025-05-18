@@ -1,9 +1,11 @@
 
+#include "../include/LogicSystem.hpp"
+
 #include <exception>
 #include <string>
 
+#include "../include/CompressUtil.hpp"
 #include "../include/logger.hpp"
-#include "../include/LogicSystem.hpp"
 namespace Yftp {
 LogicSystem::LogicSystem() : b_stop_(false) {
     registerCallBacks();
@@ -90,18 +92,18 @@ void LogicSystem::registerCallBacks() {
                     std::bind(&LogicSystem::handleDownloadCallBack, this,
                               std::placeholders::_1, std::placeholders::_2,
                               std::placeholders::_3));
-    registerHandler(MSG_CD,
-                    std::bind(&LogicSystem::handleCDCallBack, this,
-                              std::placeholders::_1, std::placeholders::_2,
-                              std::placeholders::_3));
-    registerHandler(MSG_PWD,
-                    std::bind(&LogicSystem::handlePWDCallBack, this,
-                              std::placeholders::_1, std::placeholders::_2,
-                              std::placeholders::_3));
-    registerHandler(MSG_CAT,
-                    std::bind(&LogicSystem::handleCATCallBack, this,
-                              std::placeholders::_1, std::placeholders::_2,
-                              std::placeholders::_3));
+    registerHandler(
+        MSG_CD,
+        std::bind(&LogicSystem::handleCDCallBack, this, std::placeholders::_1,
+                  std::placeholders::_2, std::placeholders::_3));
+    registerHandler(
+        MSG_PWD,
+        std::bind(&LogicSystem::handlePWDCallBack, this, std::placeholders::_1,
+                  std::placeholders::_2, std::placeholders::_3));
+    registerHandler(
+        MSG_CAT,
+        std::bind(&LogicSystem::handleCATCallBack, this, std::placeholders::_1,
+                  std::placeholders::_2, std::placeholders::_3));
     registerHandler(MSG_EXIT,
                     std::bind(&LogicSystem::handleUserExitCallBack, this,
                               std::placeholders::_1, std::placeholders::_2,
@@ -259,25 +261,28 @@ void LogicSystem::handleUploadCallBack(Session::ptr session,
         assert(root["msg_id"].asInt() == MSG_UPLOAD);
         std::string path = root["path"].asString();
         path = session->resolvePath(path);
-        if (!fs::exists(path)) {
-            if (fs::is_directory(path)) {
-                LOG_ERROR("Path {} is a directory.", path);
-                throw std::runtime_error("Path is a directory");
-            }
 
-            std::ofstream file(path);  // Create the file if it doesn't exist
-            if (!file) {
-                LOG_ERROR("Failed to create file at path: {}", path);
-                throw std::runtime_error("Failed to create file");
+        std::string b64_content = root["content"].asString();
+        std::string bin_content =
+            Yftp::CompressUtil::base64_decode(b64_content);
+        bool is_compress = root.get("compress", false).asBool();
+        std::string content;
+        if (is_compress) {
+            uLongf original_size = root.get("original_size", 0).asUInt64();
+            if (!Yftp::CompressUtil::decompress(bin_content, content,
+                                                original_size)) {
+                throw std::runtime_error("Decompress failed");
             }
-            file.close();
+        } else {
+            content = bin_content;
         }
-        std::string content = root["content"].asString();
-        bool result = FileUtil::writeFile(path, content);
+        std::ofstream file(path, std::ios::binary);
+        file.write(content.data(), content.size());
+        file.close();
+
         Json::Value return_root;
         return_root["msg_id"] = MSG_UPLOAD;
-        return_root["data"] =
-            result ? "File uploaded successfully" : "Failed to upload file";
+        return_root["data"] = "File uploaded successfully";
         std::string return_str = return_root.toStyledString();
         LOG_INFO("Send {} bytes to {}", return_str.size(),
                  session->getRemoteIp());
@@ -312,10 +317,32 @@ void LogicSystem::handleDownloadCallBack(Session::ptr session,
         assert(root["msg_id"].asInt() == MSG_DOWNLOAD);
         std::string path = root["path"].asString();
         path = session->resolvePath(path);
+
+        bool is_compress = root.get("compress", false).asBool();
         std::string content = FileUtil::readFile(path);
+
         Json::Value return_root;
         return_root["msg_id"] = MSG_DOWNLOAD;
-        return_root["content"] = content;
+        std::string b64_content;
+        if (is_compress) {
+            std::string compressed;
+            if (Yftp::CompressUtil::compress(content, compressed)) {
+                b64_content = Yftp::CompressUtil::base64_encode(compressed);
+                return_root["compress"] = true;
+                return_root["original_size"] = (Json::UInt64)content.size();
+                return_root["content"] = b64_content;
+            } else {
+                b64_content = Yftp::CompressUtil::base64_encode(content);
+                return_root["compress"] = false;
+                return_root["original_size"] = (Json::UInt64)content.size();
+                return_root["content"] = b64_content;
+            }
+        } else {
+            b64_content = Yftp::CompressUtil::base64_encode(content);
+            return_root["compress"] = false;
+            return_root["original_size"] = (Json::UInt64)content.size();
+            return_root["content"] = b64_content;
+        }
         std::string return_str = return_root.toStyledString();
         LOG_INFO("Send {} bytes to {}", return_str.size(),
                  session->getRemoteIp());
@@ -413,9 +440,8 @@ void LogicSystem::handlePWDCallBack(Session::ptr session, const short &msg_id,
     return;
 }
 
-void LogicSystem::handleCATCallBack(Session::ptr session,
-                                     const short &msg_id,
-                                     const string &msg_data) {
+void LogicSystem::handleCATCallBack(Session::ptr session, const short &msg_id,
+                                    const string &msg_data) {
     try {
         Json::Reader reader;
         Json::Value root;
@@ -452,8 +478,8 @@ void LogicSystem::handleCATCallBack(Session::ptr session,
 }
 
 void LogicSystem::handleUserExitCallBack(Session::ptr session,
-                                          const short &msg_id,
-                                          const string &msg_data) {
+                                         const short &msg_id,
+                                         const string &msg_data) {
     try {
         Json::Reader reader;
         Json::Value root;

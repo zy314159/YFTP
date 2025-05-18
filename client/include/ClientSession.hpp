@@ -1,14 +1,17 @@
 #pragma once
-#include "MsgNode.hpp"
+#include <jsoncpp/json/json.h>
+
 #include <boost/asio.hpp>
 #include <boost/uuid/uuid.hpp>
 #include <boost/uuid/uuid_generators.hpp>
 #include <boost/uuid/uuid_io.hpp>
-#include <jsoncpp/json/json.h>
-#include <iostream>
 #include <fstream>
+#include <iostream>
 #include <queue>
 #include <string>
+
+#include "CompressUtil.hpp"
+#include "MsgNode.hpp"
 
 using boost::asio::ip::tcp;
 
@@ -18,7 +21,10 @@ class ClientSession : public std::enable_shared_from_this<ClientSession> {
     using ptr = std::shared_ptr<ClientSession>;
 
     ClientSession(boost::asio::io_context& io_context)
-        : socket_(io_context), b_close_(false), b_head_parse_(false), connected_(false){
+        : socket_(io_context),
+          b_close_(false),
+          b_head_parse_(false),
+          connected_(false) {
         boost::uuids::uuid a_uuid = boost::uuids::random_generator()();
         uuid_ = boost::uuids::to_string(a_uuid);
         recv_head_node_ = std::make_shared<MsgNode>(HEAD_TOTAL_LEN);
@@ -104,9 +110,10 @@ class ClientSession : public std::enable_shared_from_this<ClientSession> {
             b_close_ = true;
         }
 
-        if(connected_) {
+        if (connected_) {
             connected_ = false;
-            std::cout << "Disconnected from server. Thank you for using YFTP." << std::endl;
+            std::cout << "Disconnected from server. Thank you for using YFTP."
+                      << std::endl;
         }
     }
 
@@ -312,7 +319,24 @@ class ClientSession : public std::enable_shared_from_this<ClientSession> {
                     std::string filename = current_download_file_;
                     std::ofstream outfile(filename, std::ios::binary);
                     if (outfile) {
-                        outfile << root["content"].asString();
+                        std::string b64_content = root["content"].asString();
+                        std::string bin_content =
+                            CompressUtil::base64_decode(b64_content);
+                        if (root["compress"].asBool()) {
+                            std::string decompressed_content;
+                            if (CompressUtil::decompress(
+                                    bin_content, decompressed_content,
+                                    root["original_size"].asUInt64())) {
+                                outfile.write(decompressed_content.data(),
+                                              decompressed_content.size());
+                            } else {
+                                outfile.write(bin_content.data(),
+                                              bin_content.size());
+                            }
+                        } else {
+                            outfile.write(bin_content.data(),
+                                          bin_content.size());
+                        }
                         outfile.close();
                         std::cout
                             << "File downloaded successfully to: " << filename
@@ -327,20 +351,23 @@ class ClientSession : public std::enable_shared_from_this<ClientSession> {
                               << std::endl;
                 }
                 break;
-            }case MSG_CD: {
-                std::cout << "The current directory is " << root["data"].asString()
-                          << std::endl;
+            }
+            case MSG_CD: {
+                std::cout << "The current directory is "
+                          << root["data"].asString() << std::endl;
                 break;
             }
             case MSG_PWD: {
-                std::cout << "The current directory is " << root["data"].asString()
-                          << std::endl;
+                std::cout << "The current directory is "
+                          << root["data"].asString() << std::endl;
                 break;
-            }case MSG_CAT: {
-                std::cout << "File content:\n" << root["content"].asString()
-                          << std::endl;
+            }
+            case MSG_CAT: {
+                std::cout << "File content:\n"
+                          << root["content"].asString() << std::endl;
                 break;
-            }case MSG_EXIT: {
+            }
+            case MSG_EXIT: {
                 std::cout << "Server response: " << root["data"].asString()
                           << std::endl;
                 close();

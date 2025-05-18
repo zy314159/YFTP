@@ -16,5 +16,6 @@ target_link_libraries(yftp_client
     boost_system
     boost_program_options
     jsoncpp
+    z
 )
 

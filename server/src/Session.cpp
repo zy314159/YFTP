@@ -21,7 +21,7 @@ Session::Session(boost::asio::io_context& io_context, Server* server)
     recv_head_node_ = make_shared<MsgNode>(HEAD_TOTAL_LEN);
 
     const char* home_path = std::getenv("HOME");
-    if(home_path){
+    if (home_path) {
         user_current_path_ = std::filesystem::path(home_path);
     } else {
         LOG_ERROR("HOME environment variable not set");

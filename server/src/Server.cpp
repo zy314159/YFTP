@@ -11,7 +11,8 @@ namespace Yftp {
 Server::Server(boost::asio::io_context& ioc, short port)
     : port_(port),
       ioc_(ioc),
-      acceptor_(ioc, boost::asio::ip::tcp::endpoint(boost::asio::ip::tcp::v4(), port)) {
+      acceptor_(ioc, boost::asio::ip::tcp::endpoint(boost::asio::ip::tcp::v4(),
+                                                    port)) {
     LOG_INFO("Server started on port: {}", port_);
     if (!acceptor_.is_open()) {
         LOG_ERROR("Failed to open acceptor on port: {}", port_);
@@ -20,18 +21,18 @@ Server::Server(boost::asio::io_context& ioc, short port)
     startAccept();
 }
 
-Server::~Server() {
-    LOG_INFO("Server stopped on port: {}", port_);
-}
+Server::~Server() { LOG_INFO("Server stopped on port: {}", port_); }
 
 void Server::startAccept() {
     auto& io_context = AsioIOServicePool::getInstance().getIOService();
     auto new_session = std::make_shared<Session>(io_context, this);
-    acceptor_.async_accept(new_session->getSocket(), std::bind(&Server::handleAccept, this,
-                                                               new_session, std::placeholders::_1));
+    acceptor_.async_accept(new_session->getSocket(),
+                           std::bind(&Server::handleAccept, this, new_session,
+                                     std::placeholders::_1));
 }
 
-void Server::handleAccept(Session::ptr session, const boost::system::error_code& error) {
+void Server::handleAccept(Session::ptr session,
+                          const boost::system::error_code& error) {
     if (!error) {
         LOG_INFO("Accepted new session from: {}",
                  session->getSocket().remote_endpoint().address().to_string());

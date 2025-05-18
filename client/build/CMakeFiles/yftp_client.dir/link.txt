@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/yftp_client.dir/src/main.cpp.o -o ../bin/yftp_client  -lpthread -lboost_system -lboost_program_options -ljsoncpp 

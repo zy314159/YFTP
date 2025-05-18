@@ -7,6 +7,7 @@
 
 #include "ClientSession.hpp"
 #include "FileUtil.hpp"
+#include "CompressUtil.hpp"
 
 class YFTPClient {
    public:
@@ -84,11 +85,21 @@ class YFTPClient {
                       << std::endl;
             return;
         }
-
+        std::string compressed_content, b64_content;
         Json::Value root;
         root["msg_id"] = MSG_UPLOAD;
         root["path"] = remote_path;
-        root["content"] = content;
+        if(CompressUtil::compress(content, compressed_content)) {
+            b64_content = CompressUtil::base64_encode(compressed_content);
+            root["compress"] = true;
+            root["original_size"] = static_cast<Json::UInt64>(content.size());
+            root["content"] = b64_content;
+        }else{
+            b64_content = CompressUtil::base64_encode(content);
+            root["compress"] = false;
+            root["content"] = b64_content;
+            root["original_size"] = static_cast<Json::UInt64>(content.size());
+        }
         std::string msg = root.toStyledString();
         session_->send(msg, MSG_UPLOAD);
     }
@@ -98,6 +109,7 @@ class YFTPClient {
         Json::Value root;
         root["msg_id"] = MSG_DOWNLOAD;
         root["path"] = remote_path;
+        root["compress"] = true;  
         std::string msg = root.toStyledString();
 
         // 保存当前下载文件名，用于接收文件时保存
