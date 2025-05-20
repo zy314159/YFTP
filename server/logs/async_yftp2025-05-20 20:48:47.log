@@ -1,0 +1,6 @@
+[2025-05-20 20:48:47] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:9 AsioIOServicePool construct
+[2025-05-20 20:48:47] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:10 AsioIOServicePool size is 32
+[2025-05-20 20:48:47] [info] /home/zhangyang/YFTP/server/src/Server.cpp:16 Server started on port: 9000
+[2025-05-20 20:49:05] [info] /home/zhangyang/YFTP/server/src/Server.cpp:24 Server stopped on port: 9000
+[2025-05-20 20:49:05] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 20:49:05] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:22 AsioIOServicePool destruct

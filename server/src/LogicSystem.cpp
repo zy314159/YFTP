@@ -376,6 +376,9 @@ void LogicSystem::handleCDCallBack(Session::ptr session, const short &msg_id,
         assert(root["msg_id"].asInt() == MSG_CD);
         std::string path = root["path"].asString();
         path = session->resolvePath(path);
+        if(!FileUtil::directoryExists(path)){
+            throw std::runtime_error("Directory does not exist");
+        }
         session->setCurrentPath(path);
         Json::Value return_root;
         return_root["msg_id"] = MSG_CD;

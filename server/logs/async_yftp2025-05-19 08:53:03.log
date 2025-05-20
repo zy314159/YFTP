@@ -1,0 +1,35 @@
+[2025-05-19 08:53:03] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:9 AsioIOServicePool construct
+[2025-05-19 08:53:03] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:10 AsioIOServicePool size is 32
+[2025-05-19 08:53:03] [info] /home/zhangyang/YFTP/server/src/Server.cpp:16 Server started on port: 9000
+[2025-05-19 08:55:03] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-19 08:55:03] [error] /home/zhangyang/YFTP/server/src/Session.cpp:244 handle read failed, error is End of file
+[2025-05-19 08:55:03] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 12b4c1f7-e40b-4998-8433-451be721acf1 cleared
+[2025-05-19 08:55:03] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-19 08:55:11] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-19 08:55:11] [error] /home/zhangyang/YFTP/server/src/Session.cpp:244 handle read failed, error is End of file
+[2025-05-19 08:55:11] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 7203b54d-63b7-447f-9ae7-bc029de8fe97 cleared
+[2025-05-19 08:55:11] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-19 08:56:15] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 192.168.1.4
+[2025-05-19 08:56:15] [error] /home/zhangyang/YFTP/server/src/Session.cpp:244 handle read failed, error is End of file
+[2025-05-19 08:56:15] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 7a1669b4-c6cd-45f4-b3b8-3552eb5f6669 cleared
+[2025-05-19 08:56:15] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-19 09:15:59] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 192.168.1.4
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:122 msg id 1001 register success
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:122 msg id 1004 register success
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:122 msg id 1002 register success
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:122 msg id 1003 register success
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:122 msg id 1005 register success
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:122 msg id 1006 register success
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:122 msg id 1007 register success
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:122 msg id 1008 register success
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:122 msg id 1009 register success
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:122 msg id 1010 register success
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:111 register all msg id success
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:57 recv_msg id is 1004
+[2025-05-19 09:16:01] [info] /home/zhangyang/YFTP/server/src/LogicSystem.cpp:155 Send 2403 bytes to 192.168.1.4
+[2025-05-19 09:16:06] [error] /home/zhangyang/YFTP/server/src/Session.cpp:244 handle read failed, error is End of file
+[2025-05-19 09:16:06] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5e71d8f9-30ac-447b-b802-5ae73edeb43d cleared
+[2025-05-19 09:16:06] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-19 09:16:15] [info] /home/zhangyang/YFTP/server/src/Server.cpp:24 Server stopped on port: 9000
+[2025-05-19 09:16:15] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-19 09:16:15] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:22 AsioIOServicePool destruct

@@ -1,0 +1,24 @@
+[2025-05-19 02:55:03] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:9 AsioIOServicePool construct
+[2025-05-19 02:55:03] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:10 AsioIOServicePool size is 32
+[2025-05-19 02:55:03] [info] /home/zhangyang/YFTP/server/src/Server.cpp:16 Server started on port: 8080
+[2025-05-19 02:55:07] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-19 02:55:07] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-19 02:55:07] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-19 02:55:07] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 69264ed8-598e-43da-a2a1-ed82f3adf282 cleared
+[2025-05-19 02:55:07] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-19 02:55:08] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-19 02:55:08] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-19 02:55:08] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2353aa99-afc9-4ca7-9d96-8c36afc6c79b cleared
+[2025-05-19 02:55:08] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-19 02:55:08] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-19 02:55:08] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 566f6d6f-65ec-499b-81bb-b32108bda6f3 cleared
+[2025-05-19 02:55:08] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-19 02:55:09] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-19 02:55:09] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-19 02:55:09] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1f767cee-fd03-4738-84ab-481f26e2d7a9 cleared
+[2025-05-19 02:55:09] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-19 02:55:09] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-19 02:58:37] [info] /home/zhangyang/YFTP/server/src/Server.cpp:24 Server stopped on port: 8080
+[2025-05-19 02:58:37] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-19 02:58:37] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:22 AsioIOServicePool destruct
+[2025-05-19 02:58:37] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct

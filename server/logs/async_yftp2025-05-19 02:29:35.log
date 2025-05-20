@@ -1,0 +1,9 @@
+[2025-05-19 02:29:35] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:9 AsioIOServicePool construct
+[2025-05-19 02:29:35] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:10 AsioIOServicePool size is 32
+[2025-05-19 02:29:35] [info] /home/zhangyang/YFTP/server/src/Server.cpp:16 Server started on port: 8080
+[2025-05-19 02:50:19] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-19 02:50:23] [error] /home/zhangyang/YFTP/server/src/Session.cpp:249 Exception code is std::bad_alloc
+[2025-05-19 02:50:56] [info] /home/zhangyang/YFTP/server/src/Server.cpp:24 Server stopped on port: 8080
+[2025-05-19 02:50:56] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-19 02:50:56] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-19 02:50:56] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:22 AsioIOServicePool destruct

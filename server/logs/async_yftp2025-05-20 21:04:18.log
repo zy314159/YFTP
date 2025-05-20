@@ -1,0 +1,1693 @@
+[2025-05-20 21:04:18] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:9 AsioIOServicePool construct
+[2025-05-20 21:04:18] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:10 AsioIOServicePool size is 32
+[2025-05-20 21:04:18] [info] /home/zhangyang/YFTP/server/src/Server.cpp:16 Server started on port: 9000
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c8bc833a-ef63-40c6-8f16-19746aa6602e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2fb0d2bb-8411-4f29-9197-fcf7c1b0ace1 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session aff2d389-e658-4730-9dbe-c2030ebdec8b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c9262db2-fd72-4638-9d38-9adbf686b929 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session d2e98c70-f2b2-41c6-8fdb-d9e4e9ed0ce3 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 58577d0c-6709-4c81-a48a-164bfb66b6bc cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 606eba87-f9f1-4671-94c5-43effc487759 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1dda28e4-89c3-4762-964a-41789e5ffc94 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session bff68483-ebcf-4ff1-bd3c-f7f5962503de cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 79200f66-4abd-4fa8-9022-c2095b578fe2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 03ae8fea-8d76-4bc7-9777-6c140f5d9615 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8ea00293-98ea-406f-b0a4-d4a7dd6b272b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session da0fe5f5-9197-4945-a085-f1cdc48b84e2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session afedc2a5-3ec4-4803-b630-2762d820054b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 0ae55519-a2de-418a-bc94-875134a78d77 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 76b01fff-f8f0-40b6-a1a0-0ce7cddd8c6f cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 29de728f-96de-4f23-9632-58bb683db165 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 7a3c1bef-7464-4423-8c74-873e9d32c933 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 6bcff674-a7db-4001-87a6-62a4046f7472 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4469f42a-82fc-4537-80a8-bc2dc895a1e7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b9d8b894-8785-4898-93bf-71d01d131f3c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 36f61a89-6630-488f-88db-7b17904a9314 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 9948eee5-0272-4670-b67e-47a23ab1e902 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ccffda36-20b6-4a3b-9b78-c080e5972c19 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2bf067d7-a9ba-4036-b980-c43c75b2fa27 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 29de2aed-f508-4e18-9f6a-9d595e4902d9 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 92347e66-c7ff-434e-a64f-98040c1f0bae cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 9cff8207-6dce-4e7b-acab-cfc923b296eb cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c8d609f3-f017-4850-81da-c7fe2a73f8b7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 65290291-212d-41ae-bdef-f3f7f62489a6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2a2a54e9-01ae-4a23-beaf-46e0852c09a2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5abb67a0-76f6-4f0f-bb3d-aa17167eab15 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2cd2ab83-26d9-47c7-9c04-2a7385f94780 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 7b3a4182-10d9-494a-9b31-5306d6376ac2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 14b167c9-cd30-41e4-9ef9-30307fa62f59 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a0f2fb85-d333-4e93-8154-1b944462aa59 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 3612bf5a-7f97-4546-a85a-d26bbdaa26bf cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ec6e8b6b-54d5-44c2-b028-6f92b9f8ac8c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 024b7b4f-f0b5-4bb2-8fb6-5da317621b59 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c815f2cd-be63-48cf-bba4-5712fb3a540c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 184c04a0-7b17-4bcb-8fc2-43a9ac942662 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 3ce71205-53d7-4835-9326-76a27a0047e5 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1e6b83ad-f839-4952-abed-957f2a834bd7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8030c2b8-2186-4558-a246-b3943e4847fa cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ba83eaaf-2207-4862-8310-af83cb8866df cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 044d6564-ec84-4f66-8c5c-0f8b3526b3bd cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e921ac7b-3e8f-4600-87cc-daefc90887dd cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c5edd28c-16d5-4ddd-9721-1899e3b1fc7b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 0777a495-8786-495d-9590-5f5c46c9e4fa cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 44da7420-0200-4bf7-b1f1-14266bde4012 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 0b11f92d-7311-4d26-9c33-4c9bcd4caa9a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 02159c88-f123-4f97-8a0a-e6887aec47f9 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session cf05df69-5d63-4daa-95ef-224f550bac04 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 0708a7fc-fd7b-4fec-baa0-01c1fabd677c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session aa465f10-e0b8-4f2b-b2e1-fc8c7c24fcc3 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 80236e72-94e9-4d0c-a36a-e349199659a4 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c0a8e8f2-b8e1-4a04-9044-6152c77a4f7d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ef643957-1362-4105-b089-055c721971cc cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 3f1c51d4-8670-4223-a20f-d6b93561ac3c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 9c726ab4-a16f-42f6-bf51-9c54c202a3a5 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 448044df-2f53-4b49-98f3-f19e37add441 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session dd3d6061-65a3-4b7f-9829-1c35bc752b99 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e5d48c71-fbd4-4da9-b9fa-1704c57ebc45 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 08f73283-b7b6-4847-b46a-c7abd8e792ac cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e767d798-d5ea-49ff-8b56-42f76d7cc712 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session fd990ba2-b6e2-47eb-80d3-e6dee13b2e78 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 44aa926a-9ec3-424f-bd93-27e3105ffc3d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c7140ccb-1c88-4e1a-90ba-29f85f085f10 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 0d049ce8-5e1f-4285-82a7-500109d7b59a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8c10d9ae-9777-41fd-8958-96b7b15002a2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session cd23b90e-49c1-437b-8ffa-1b6fb37ddea2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 01bccc35-88e7-41c7-bc94-a3104a01c51b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5cf64290-aa28-46b8-ad43-77031b1a5f46 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 41beb9b4-160f-4bdf-915b-430e79c2b809 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2fdd52c0-2c8c-49a0-baa1-b34739b2f47a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4a36a9d0-de20-47b1-a0e6-ca1902bbed69 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5a57dbb7-65fc-425b-9741-edfc0cf1dbe7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c04685b7-aa67-495e-be3e-d07d888b6bbe cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f8e2a989-a467-4960-9efc-e473778a1c11 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 46120741-b313-468b-b185-29ed2c925b61 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e87d1bd8-250a-4672-bd30-9b8d5ac2c8e6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session d179753c-ff22-479e-932e-3d2ada98609a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 04f299d2-e9a4-4e26-ac23-e0eee9472a78 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ecc0adf0-129e-48de-84a3-d3959787cd57 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 497355bf-ab56-4bd9-938d-8c5b600f9af5 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8ecf1b69-c13a-45d9-b027-e85f359870fc cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b8ccffc2-9227-47c3-94b4-19df1d6a3130 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f7bbeb84-069a-4aef-8673-61cb0b887b9a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session cd90c064-c563-4f7a-8ef0-9d8acf84deaa cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1e715a66-934f-4f3f-a2de-b93e0320763b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a79d14a9-f22f-4b58-a102-7e3bfa72420e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4470908c-e128-41ed-bfae-68040f4aedb1 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 46cfba63-0010-4d6b-94a5-72e831aa4abf cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2143d450-0d66-4416-8c2c-48713760a12b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4a11f39c-6809-4382-8473-6d9ca79e7130 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 08bc2766-211d-4707-bfcb-9c97d991096e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 04aa305d-2cb1-4e10-809a-6e449b5194e3 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f9c45d26-3129-42d5-8b27-b1d374b2543d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session bc646c8b-76d1-419e-a211-74c037eb8109 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 36e06439-4211-4e3d-b5b1-addd19249897 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4797afed-8759-4997-a91e-211c67035226 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 9efa8854-c615-4bc5-abc0-da8f0d07c674 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a6dfe4b0-5764-458e-907c-a4ca60baa31f cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ea81e4bb-eba9-43ac-ab8b-d11d136f23f8 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 54a7658f-9959-47e6-b797-adc9d5a40cd3 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 0ecf19a0-fd90-4664-89d0-b893a9a82a6e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 051ec901-7ad3-4ec4-8ce7-76ec6be920cd cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session d1a76591-f6a7-4de7-a268-a47351e6f1af cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 3d607c88-7efe-4f04-9940-07d4283d4d37 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 19c183f0-5786-458a-b305-d4f2093208ba cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session cdcfa3bf-d9af-4a1e-9f0a-6e800bfc985b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a6484b06-ec4d-4208-bc9e-8b6ac266149a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b819a1db-bffb-4120-9391-94e16756f764 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 59865cd1-4312-4cf1-87a0-db96306cb955 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e3e9384a-611e-4f76-a59e-496d47958aa2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c0ffe332-77c1-4214-8fa3-694390b6a245 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b983a3bd-acad-4204-bbb7-0a2ec61f9aeb cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session fd33625c-1e8e-433f-8c4e-4f01438d405f cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e99c28c0-35b3-4f29-a39c-bb4957dd442e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ca3fef1b-ca5e-4a2c-a693-a7759fbd56cc cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 713344a3-49c3-437e-93d8-75c8be0ff241 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 123352fd-8fbf-4684-8662-3502ad605ef1 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 43ccc72c-54f7-443b-8f23-0dcfc53b963e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5de15981-0676-4695-9244-1fca82a97cbc cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5a3a54e8-b9cd-43f7-9811-628a31b5c2f7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 740cbceb-8e69-4bae-a52f-70e2b960906b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5853c479-b3bf-48df-8ec7-e12a5d9551c4 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2ecefb0e-1655-468f-adac-2236ecc33116 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 056861cb-1701-49d1-a7b8-0f912f73917d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b895f12f-d3a0-4292-a740-1d152225134c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 181f1b6b-ba34-465b-8291-9b028df2f135 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 0d04333a-e7f9-4578-b78b-18077c613a94 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8b431937-b965-41c1-8f87-a3d3d1a8f066 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session af978c82-06c4-453d-a0f1-a2f4248beb18 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 25a31bf2-d954-4f98-8b7e-b386317dcf95 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 79197527-72fc-4c11-a5b8-30d4193576af cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 6107abad-8598-4fff-9af3-2459bb24589a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 401c891b-3146-4ea2-8d62-06354a38df84 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 30a5bbc3-92d7-41cc-9894-e6839169cb26 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 9de01cf1-07f6-4c16-8b39-9046e04ef8b6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f6b0cd47-f005-42e5-bd56-a53cb12e00c6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 42e1c347-e5f6-46fa-b643-15b80429224b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session fedca4aa-724a-4c0b-90ad-7ca475b818af cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 23913421-a64e-4180-90ff-d2e72b0c6e4f cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 93643d7a-f86b-4083-9f4d-b32102516f52 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 702c2659-4a3d-4a02-b4c8-e342a215d4b6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 34c19d7d-09eb-42d0-8464-1c703e0322ab cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 7567559f-ec92-4a47-a583-1fb5da4fdbc6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a2cabc68-1c87-469b-abcb-e2e9d7b46a88 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8505aaef-5dd1-450c-a4a3-2513b026f48b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session d6202a74-77a8-4654-a7e9-75d2827b51b7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session d7e2dcb8-5a08-4066-a218-5af2df4c6503 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4d9b33dd-5432-4872-9e8c-855c568e2622 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 3b69c339-7791-4e69-9daf-39e20a77db5f cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4e2cb3c2-676c-4bfc-a290-1df3ef20d627 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 166829f0-ce1a-4ad0-a480-44e1dc7e06ee cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session fa956af7-aa9c-4f16-bcb6-49bb9195fa03 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2cac59fe-34ec-4596-a8d2-62748ab42342 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 3d9e8307-9767-4b2d-bf50-f79b1e4426c8 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a2c9d28a-d398-4a1f-aa70-00680ccf6606 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b9fea875-adeb-4256-a117-4f1fe480d5ee cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 6c2c5b7b-8861-4312-87c4-fee7f47fc937 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4824e0fb-5486-4fd5-b553-089711e142cd cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 360f9584-5368-4608-9054-fa0f494d6c0b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e6e6184c-c3f4-4aac-93ef-b08dc85ad895 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 502a9e4d-5826-49a4-9fbf-03683cad16c1 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 74ec0c26-631f-4751-a5ab-550d8e1c48ef cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 9476c1c1-b1d5-4325-a567-ee9b71cd8d7e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 0df5843e-c1ec-4c5c-80f6-86bd1d11584d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 7e64841c-42b8-4b65-b350-37a23b7a4e68 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 0d7b1b9c-eaa8-4959-ba37-d2a09774522a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 76a1a749-1fa2-4369-9c5e-bd7c6fe37084 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 6c41fd1a-7dd5-43e0-bd7b-9ce14a42429f cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5e0ffb25-e4d9-4736-8315-2facadf6b164 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 51fcb511-3344-4546-92e1-e446404a0e14 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b26c29fa-b5b4-4291-bf5a-690366d92793 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 63c807fc-ac81-4916-8c7d-f8ab5897c247 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1c5bc500-aeef-4713-a3a5-b603417890d0 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b09ddd4d-fc90-4f55-9c72-bbb0d4e108c8 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c5b27289-d4e2-4d7c-9052-fb7cb6d0713e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 523a4639-f964-4c15-aee6-387a0ed2ade4 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e12c9c29-908a-4551-a8e6-24b1a928980e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a29e7ab1-4454-4fa3-afda-6f7052d7b1a5 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 9e49ac62-8afc-453c-b3cd-de848332caa4 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 306183d6-9d8b-40a3-889d-1317cfc3f334 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a6b3e278-7af0-4335-89eb-01e99d75ca7f cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2defd8eb-45bf-4a4b-a1a8-c1d06f97e905 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 499cdaa1-5a13-4076-bafe-468e2f30de74 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b5e0721e-9834-4867-82ff-26ff28728478 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 56f514c1-b11c-4325-b2fb-5283c0e78200 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e8376397-b65d-462d-bba9-f6f7f6878500 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 04fed216-9de0-434a-b9ec-110a43c12d7a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 79ee35d8-10f4-4872-b997-92c96de595a3 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 56b1f936-1168-4d4e-947c-ecb532fa86ea cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5eab1b18-98a4-4089-ac3e-15cb378f5ff3 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1439af27-c53e-41ee-9755-00fcf2406b2a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 10c8ae0c-45a5-4569-bfe5-d1145fc3616c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1fcda185-d779-47f0-a807-92443b81d713 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session cd938d78-7c8a-43ca-ac64-89ab7d2e27ae cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e2bc22c0-e654-461c-b9c5-d84aacc1e3a8 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5d8b8ef0-8837-4eb6-b37c-0dfdddeae314 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b3e4acdf-2031-423d-aae1-c8dd3aec16cc cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 220f084b-3cae-478e-a105-810c6b840f98 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1a2f1993-1d58-4cae-be70-474fa075bf79 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c57c9009-d3b0-43e4-b97f-f199652f40a7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 42a754cf-ff05-4eb9-9b1f-5eea54d7adfe cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session bad36862-d2c9-4329-a9d0-f3f71bf292db cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 060254f7-b234-4073-99a4-92c6d0e009e2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 6e7b3453-e620-44fd-ab4c-2ed8ae9e5958 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session dc5a184f-adb8-41ae-99d1-724504c30fc5 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c6695237-9df8-4b01-8c98-dd4638eed781 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5e07e681-1111-4d27-b42a-060a8fd833ab cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session afcf83c7-3191-480d-b84b-af704c9bad58 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 0b9be4e4-a34c-42e6-808f-6de886d9336b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 73fcb716-8348-401d-9ae7-d632061cf9ec cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 867708f9-924c-42c4-a0ac-93927d9d8a9d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 05b88ee6-0287-4973-81dc-bbb0e151ed6e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e3484f62-1c2f-45ee-aa31-09fdf31fa707 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 45f5e77b-2a02-4a32-aca8-00ea5b85fecd cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a9b8ea59-07ca-4ac3-b631-c9f52425a598 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4fa2a60f-ae1f-4e3d-a415-7ece469b1672 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c53d0313-dd77-496e-9522-5e2715305572 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1e063a83-04bf-481f-a1cd-16ec4a1e2548 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session aa89e21f-88e2-4022-8566-7cad7b6a1c43 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 6b94a2c9-09b2-47ec-8f65-1a74f30a9d32 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a47792a5-f88a-40d7-b547-5a6337d3e20d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b966383f-dfe9-437b-905f-d773c4354a1c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ba4d0cef-58c7-4946-b325-822e4407378c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1038224a-e582-40d6-8223-444daf872a6d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2c4e3814-c7f6-49f1-b953-74d7f7f47d2b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e521d388-44cc-4fe0-9fa4-04eecca3bff4 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 675ebf5e-78f2-4d0c-9d8e-901e59df00b4 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4b022918-93a2-4ddc-a116-1feb0c9051d1 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 7b1599cd-a462-4d55-9669-834352ca6f46 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 850c25d8-7634-4a1b-b4f9-14144176656e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 62385550-6d01-450a-b007-52c852434aa4 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session bce75eb7-6778-4c04-bcb9-096d6cf408ca cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ed5f56a0-6449-4c5d-ad9a-a6dda5785a6c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1d79d5f7-411c-435f-8931-2ecc024ef2b9 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 862cde83-5260-40e9-9202-225309efc4dd cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4592f1f8-4af0-41e6-bf37-1b2627ce938e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 427bc373-d055-4467-af3c-b17289aea545 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session eb4bbdac-a085-47aa-a965-283ac73abd32 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ce50f78c-4d25-47f1-bbe8-f5d5234055a7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 13065c36-6cb8-4dbb-b28d-64c6e708429b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e2054548-d4a4-4d5d-8758-417f9dec136b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 67d37c86-d863-4f63-a923-6d4d86fb3b8b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 87ae6c16-d8be-45fe-a8d0-29e5725e93ee cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f81ed390-fdb4-47a4-b3e7-00872af093ca cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2957cfca-cf27-4fe1-89a0-0b278be2f592 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5d931341-78c6-4053-8006-0c85454afb06 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5eef8c00-c194-4da4-bd24-bd6291abd44f cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 63bf85de-55d4-4a1e-908d-c7429546fd10 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8938a2da-4561-46de-aca2-678334a9c14e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c54509a6-227b-48b6-a8db-4740ac0777cd cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session fa075b79-ef47-47ca-b8d0-186766f62ded cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5878850a-46d4-4c92-963e-87c641405b12 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session fe23ffcc-59a7-499f-91c9-4ade0c8e9304 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1a254a4c-3744-4588-ad20-9829fe87c81f cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5a85429e-9b20-46b2-9779-7763484aba74 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5744a989-9593-4f4f-85b0-f7b35d0e2993 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 938126b2-a11c-4914-b1ea-6f120e9204bf cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 737383b0-aab5-41d8-96b8-915d011154db cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 3fc80f5e-cd6f-40d3-b2f6-d15d123282bc cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session cb3ccb39-3e03-45e8-8b2b-f7bc6e9d6a03 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 626c1b37-a28a-42c9-87f3-2476f2ec8354 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5dbf59da-65ea-490e-945f-d819715d7389 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ac5bbdbc-9944-4a1d-bd6c-b63b6a8165c9 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 9bbaf2bc-8dbb-427a-9313-ab029308fe75 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 94c2aa7f-ea06-4110-a2c7-82631364e346 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 310ba46b-4cd0-400f-96f9-0e83da5082ef cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5252b613-a85a-4113-808e-f282a6ce6039 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b630b3c5-a0c5-4a89-a94e-adab14b8708a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 602ad660-e800-4867-a1b2-896256d5752e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session d3107a0a-a037-4c65-be88-04ce24693e54 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session fefc22ad-3b8b-46fe-ba5b-55a2daca0bd7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 77200f4d-b75c-446a-b9bb-8dc4d2641c27 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 7c7aee3b-c64a-4384-824b-68f306bb2d2d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 058bf476-e8a9-4d75-8068-a30485933d40 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 29d01949-1109-4c2b-987d-e12755250b8b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 845b0bea-d067-4c46-8f10-1bb0c193766a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f7d8d21e-8616-451b-941b-d2c901e17283 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b063719a-cad0-4cfe-9819-8c775e31a875 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8750c3e8-6619-4a01-bf0a-78a18e0ab382 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 7a4ec9df-be63-4fdd-9423-78836f664688 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b21adf15-76d8-4544-ac6d-dcfd676da678 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 83112f1a-bbea-45ef-a35f-2cf188848511 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session d596778c-522a-4706-b069-ba1f60607f51 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a1345e01-691a-4ab5-b17d-54686f2fb627 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 55373a37-f444-4ae6-bee1-e701481414fe cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 89ce92dd-4740-4187-9de1-9214ae1906c5 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 777c91ef-283b-4834-b626-6ba9121bb270 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 78f594f3-6cb3-4f62-a268-e1057ccaa7ab cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 710b2088-67fc-4ddc-ab4b-5ad9fadc1582 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 989ded92-3a29-43eb-a72d-5f86b0f6932a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b3820fcb-e118-4276-bded-be63e3d9c3a6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 23855588-887b-485f-9f26-096e34496e10 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8d918865-572d-410f-92ff-6fc09a75d198 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 228b9a2b-8ddc-4293-bdf9-e2c9acb5dddf cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f0355988-2875-4007-97a7-86cf3ab91879 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 984ce6eb-eb63-4b7a-bdf3-e534a7d5cceb cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 90440536-d47f-42e9-aa25-ada64a5a8d66 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a3f41b57-0a90-4735-8916-b2d8614da04f cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 9a74709f-3ad9-4697-90d6-d79bf8a75d5c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 14b0b41b-7da8-4b2c-8170-d81d900d3b79 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 9ed8c9b5-9b2b-4162-b0db-1ba2810adabf cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a791a389-49df-4b1a-88b1-0d25f87b5cb6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 868338f7-ee1d-4d41-836a-ffa98d56a5da cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 6554ac62-a47e-4ca7-ac1f-2ae847db50bf cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c75788d1-f123-4913-8df3-a94c4918a683 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c99c6b67-52ea-4638-9f74-0a52e1674065 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5292e9d6-5b02-4cb3-9d83-cc3693af7de7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e8186ad2-0119-427e-9085-036c89213f73 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 18eb87ab-6da4-4ea2-92a9-b37176b0857a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session cfccae4d-5cc2-436b-a866-5a494cbe7308 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 76406a8d-5ea5-4f34-9268-0a9f157b9a9c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 554bf1f0-356d-437a-ba18-2ded39d0b5af cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 94724dc2-e665-43d0-b14b-715d8a3978d6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4701008e-16d8-4922-8ef1-3851ef81cac8 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f9abd747-3a4f-4e54-b17b-f86311ea8439 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session d29f1e1e-dcc1-40f6-9edc-498e7594b30c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 82405331-d0e9-4347-a1a0-343ffe99b9a6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 7b519ff2-09e2-41cd-9736-2864b59a06b2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 517fc7c5-20e7-4f78-b332-9f68bfd222f6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5be8b8fe-9e60-4d17-8032-cd53bb21b5ef cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 41917890-9d29-4725-855b-dd44232fa700 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2caf0898-83c7-4fda-bb95-ec3124b6cb4c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5a86afca-6915-484a-ac06-96309baad202 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session aead621f-3aa1-420d-af45-58579e5c77f8 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f3366e67-ba89-4726-b89b-a80e65975c85 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 96805938-c8f0-4311-a0a1-1babd93923c6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 1b5dc28d-99ba-4cde-85aa-4c6f05e88018 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b9ca147f-0343-4ffe-9b58-e43364892caf cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 696e3483-326e-4db9-a1a2-585c109b9d44 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 81f8d216-250e-4f62-9be9-a4602fb2afe2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session aafc1a79-6503-4b13-a39f-b33bf6c35212 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 755097cb-2d41-4c65-8391-63cfc27a215e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ff3674ae-8c45-4dd9-9acb-1e7f3b148846 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c4f5bb28-8cb6-4285-9262-2d240e8ee13c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f50849e1-7b3d-4440-b72f-78ca09b679ad cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session fbc585a9-86df-40f5-a350-30f3f2e778a6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 7e7354a1-4e62-4b42-9b3b-d5f4ee106bc1 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a7501af2-28f0-4dce-b730-d8bf50076869 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 449ae4e7-cff0-4736-9cfc-8cf30db0d701 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f95fbe49-302c-40c3-aaa7-ce9fab007bae cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session fbdbdeb2-4001-47d1-baa9-4882f4bcafc5 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 32c14067-ae85-4726-8ab4-d27c4ca3842e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2b28fb98-1b09-40d5-afa1-6d1f657867e4 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session dd4c05e0-7cfe-40b7-8eaa-57a857bf1775 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session bd168389-30b0-4e1c-8ca8-1d166d985893 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 677cee70-e0b2-49e0-b2fa-9e98cf9fd3c6 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 08233bd7-059a-4249-af37-ea2c7747dcb4 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session bb136fff-6e14-44f5-bf3f-0b44d1ab77a2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 06ccff44-1c90-4200-a5e3-a548a57e0d59 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 07e1e155-b108-4a81-a8c7-a7383f1d084c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e0086477-3626-4cdd-a5e5-c8c6ebec7fdf cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session fbb7e7f7-f264-48b1-8256-62ba70d9ed61 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 72f75912-0cd9-4513-add3-769ef9bed71b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session cb56af50-932c-4421-9fc8-7732c5dd22cb cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 355cf6c1-1005-4ca7-aa2c-5941f846e1bb cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session dc8075b8-de98-43df-aa8a-e37e1ed5f5db cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4102e5ba-1f0d-4a57-9811-9ff158906329 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 84dd735f-79de-409b-8677-7a3dafe3cc4a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e50c2ac2-f259-41c3-a3e0-5a6fcc0472a5 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 424ea6c7-487d-4cd9-a5d0-a9e3950c3115 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 613c154f-6b33-47aa-99c6-2dbb9e9898a7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 7a448b4f-096d-4dc7-9a20-5dd9460a3d3e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session aa88592d-af47-41ea-be7d-48cb010d408a cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 59ac1721-b245-41a0-93a0-6a80b9865541 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session a4de3ac9-af5d-45b2-a855-f2937af63576 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 60c6fe6c-a03a-47b6-9bbe-101204716312 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session bff1e83a-656f-4cd3-b8f9-6b52117e925b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session bac41336-cf82-4004-98e2-b011c54d937d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 04685544-2fd4-4ac2-ba2c-4d2c8307e26b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8a0976ae-bc40-46a5-ba93-d8837d2d09f8 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 5385b6a4-1c90-4653-ba12-6cd2de0910a1 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2962db31-9b73-4822-adb1-b8aa26138152 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8678225c-1bef-4e7b-8123-c6fb9e5b283d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session aeaa3879-2685-4610-b233-bdb4e826e2fe cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8ad8b815-b1e7-49ca-b208-63d8fbdcaf78 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session aec7ff0d-4b52-46fc-91e9-2f6d8a3b27bc cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 564fb9ed-593b-4dfb-89aa-ad397d9b4cec cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 0aac5532-17f4-478d-b1e1-4003a1a110ae cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c3dfbd80-2bf1-4224-89a2-1432debd00be cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2133c1aa-7ca4-4edb-8703-9ebc9b5d1b75 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 8064d0ba-c157-46f0-ad5b-a7b8fb2bc810 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 6c33d290-09ad-4976-8352-1fe920e967f2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 385d2075-c9ce-4b38-bec5-f5fbca34906b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session eba356aa-4761-493c-be97-344ee534ec8e cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4e63c2fd-f574-4391-bdac-6ea35e0710a8 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 6e7e69da-b873-4cd1-842c-88d4f0162b09 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session d1926f9a-c9c3-4303-85ba-1780107f4b8c cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f92f2626-4fcc-4099-b978-7b2112cbdca7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f01542af-fa84-4251-8fb4-be5d5d44408d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 995daa9f-1921-44c7-bb1a-b6cecc283e36 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e9c6418c-e3f6-49fd-a021-b97f58878600 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 85251f48-02d2-4fef-8392-63c33120ab00 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 666915f5-f051-4714-b8df-c55e5a4e342d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f9fe10ea-1e1c-4368-b602-17d1dc7b50db cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 46ff6e2c-c1f8-44b8-a5cf-08529c4247df cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 2f76841c-42ab-4272-9832-f8929513c5d9 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session dc08aedc-989c-4929-aa38-22cf60d3b23d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 26942abd-b8dd-4fa5-8954-5b0e0e259be7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 06feca23-59b9-4740-80fb-36d111481cc2 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 62990de7-0d97-4759-858f-17dd44b52c49 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 0775b84e-ee82-4c4b-b9b0-44089fb78b2f cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 28c63380-549f-4b79-a43e-bd28aab89b2d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session d3400b06-5db6-421d-86e7-13abe4c10491 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 878273f5-1d7c-4e43-ac1c-6512d2bfd4c1 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session f382b769-7ddf-42f1-b102-ee19f2503867 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session c2b3892f-2cf7-456a-9415-b2f77bcaa716 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 373f7526-5f6a-4903-909f-28f2f7ed4b4b cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 711ec766-a64d-454b-8b46-312c2a48f4fa cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session d4d93f36-2183-4859-9a56-73af12ff5123 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 6734bf1f-3ab2-41e3-bc52-01a13bebb9d7 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session b7aca2bd-b9c6-4f9c-a76c-9e1a3d487b13 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 6f3fa48f-20f1-4c1d-b62c-061b01d790a1 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session e675ed66-ab77-4f5c-94ba-b8a04dde168f cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session ec5d975c-e8a6-4377-b29f-df11c36b7d42 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 4c6330cc-4bd2-4373-a46c-c03f0469617d cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:54 Session 07becf63-b426-451a-8458-e8c1cc251ca3 cleared
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:04:39] [info] /home/zhangyang/YFTP/server/src/Server.cpp:37 Accepted new session from: 127.0.0.1
+[2025-05-20 21:04:39] [error] /home/zhangyang/YFTP/server/src/Session.cpp:150 invalid msg_id is 18245
+[2025-05-20 21:05:15] [info] /home/zhangyang/YFTP/server/src/Server.cpp:24 Server stopped on port: 9000
+[2025-05-20 21:05:15] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:05:15] [info] /home/zhangyang/YFTP/server/src/Session.cpp:31 ~Session destruct
+[2025-05-20 21:05:15] [info] /home/zhangyang/YFTP/server/src/AsioIOServicePool.cpp:22 AsioIOServicePool destruct
